@@ -90,7 +90,7 @@ export default function NewTask() {
         <h3>New Task</h3>
         <TextField
           id="text"
-          label="Descripcion"
+          label="Description"
           variant="outlined"
           onChange={handleDescripcion}
           value={state.descripcion}
@@ -98,10 +98,10 @@ export default function NewTask() {
         <br />
         <br />
         <TextField
-          id="Responsable"
+          id="Responsible"
           type="text"
           variant="outlined"
-          label="Responsable"
+          label="Responsible"
           onChange={handleResponsable}
           value={state.descripcion.name}
         />

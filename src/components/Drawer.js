@@ -112,7 +112,7 @@ export default function PersistentDrawerLeft() {
             <MenuIcon />
           </IconButton>
           <Typography variant="h6" noWrap>
-            List Todo
+            Todo List
           </Typography>
         </Toolbar>
       </AppBar>
@@ -144,7 +144,7 @@ export default function PersistentDrawerLeft() {
         </IconButton>
         <Divider />
         <IconButton color="inherit" href="/home">
-          List Todo
+          Todo List
           <ListAltTwoToneIcon />
         </IconButton>
         <Divider />
